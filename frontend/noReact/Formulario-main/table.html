@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário e Tabela</title>
+    <link rel="stylesheet" href="./assets/css/table.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <img src="./assets/img/logoHeaderFooter.jpg" alt="Logo do Site" class="logo-menu">
+        <a href="home.html">Home</a>
+        <a href="profile.html">Minha conta</a>
+        <a href="table.html">Registros</a>
+        <a href="login.html">Sair</a>
+    </div>
+
+    <div class="container">
+        <form id="form">
+            <div class="form-group">
+                <label for="localidade">Localidade Destino:</label>
+                <select id="localidade" name="localidade">
+                    <option value="itabaianinha">Itabaianinha</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data">
+            </div>
+            <div class="form-group">
+                <label for="horario">Horário:</label>
+                <select id="horario" name="horario">
+                    <option value="13h">13h</option>
+                    <option value="17h">17h</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="terminal">Terminal:</label>
+                <input type="text" id="terminal" name="terminal">
+            </div>
+            <div class="form-group">
+                <label for="pin">Pule / Pin:</label>
+                <input type="text" id="pin" name="pin">
+            </div>
+            <div class="form-group">
+                <button type="submit">OK</button>
+            </div>
+        </form>
+        
+        <table id="result-table">
+            <thead>
+                <tr>
+                    <th>Tipo de jogo</th>
+                    <th>Prêmio</th>
+                    <th>Valor da aposta</th>
+                    <th>Valor a descarregar</th>
+                    <th>Número</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Linhas de exemplo, você pode adicionar mais -->
+                <tr>
+                    <td>Loteria</td>
+                    <td>R$ 1.000,00</td>
+                    <td>R$ 10,00</td>
+                    <td>R$ 990,00</td>
+                    <td>12345</td>
+                </tr>
+                <tr>
+                    <td>Loteria</td>
+                    <td>R$ 1.000,00</td>
+                    <td>R$ 10,00</td>
+                    <td>R$ 990,00</td>
+                    <td>12345</td>
+                </tr>
+                <tr>
+                    <td>Loteria</td>
+                    <td>R$ 1.000,00</td>
+                    <td>R$ 10,00</td>
+                    <td>R$ 990,00</td>
+                    <td>12345</td>
+                </tr>
+                <tr>
+                    <td>Loteria</td>
+                    <td>R$ 1.000,00</td>
+                    <td>R$ 10,00</td>
+                    <td>R$ 990,00</td>
+                    <td>12345</td>
+                </tr>
+                <tr>
+                    <td>Loteria</td>
+                    <td>R$ 1.000,00</td>
+                    <td>R$ 10,00</td>
+                    <td>R$ 990,00</td>
+                    <td>12345</td>
+                </tr>
+                <tr>
+                    <td>Loteria</td>
+                    <td>R$ 1.000,00</td>
+                    <td>R$ 10,00</td>
+                    <td>R$ 990,00</td>
+                    <td>12345</td>
+                </tr>
+                <tr>
+                    <td>Loteria</td>
+                    <td>R$ 1.000,00</td>
+                    <td>R$ 10,00</td>
+                    <td>R$ 990,00</td>
+                    <td>12345</td>
+                </tr>
+                <tr>
+                    <td>Loteria</td>
+                    <td>R$ 1.000,00</td>
+                    <td>R$ 10,00</td>
+                    <td>R$ 990,00</td>
+                    <td>12345</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer class="footer">
+        <p>Todos os direitos reservados a: Evolved World</p>
+        <p>Contato: <a href="mailto:evolvedworld.contact@gmail.com">evolvedworld.contact@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
